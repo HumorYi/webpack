@@ -1,0 +1,34 @@
+body {
+  font-size: 14px;
+  background-color: red;
+}
+body {
+  color: #ddd;
+  background-image: url(http://www.xxx.cn/img/4ff51595720f6ea65a550f9f25b46fc0.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@-webkit-keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 200px;
+  }
+}
+@keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 200px;
+  }
+}
+body ul {
+  list-style: none;
+}
+body ul li {
+  border: 1px solid #000;
+  transform: rotate(45deg);
+}
+

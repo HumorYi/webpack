@@ -1,0 +1,8 @@
+@import './a.css';
+
+body {
+  color: #ddd;
+  background-image: url('./bgc.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}

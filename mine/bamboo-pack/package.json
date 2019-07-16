@@ -1,0 +1,17 @@
+{
+  "name": "bamboo-pack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "bamboo-pack": "./bin/bamboo-pack.js"
+  },
+  "devDependencies": {
+    "@babel/generator": "^7.5.0",
+    "@babel/traverse": "^7.5.0",
+    "@babel/types": "^7.5.0",
+    "babylon": "^6.18.0",
+    "ejs": "^2.6.2",
+    "tapable": "^1.1.3"
+  }
+}
