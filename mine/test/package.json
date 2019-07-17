@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "build-bamboo-pack": "bamboo-pack"
+  },
   "devDependencies": {
     "less": "^3.9.0",
     "webpack": "^4.35.3",
