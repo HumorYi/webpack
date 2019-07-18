@@ -19,7 +19,10 @@ class PluginEmit {
 
 module.exports = {
 	mode: 'development',
-	entry: './src/index.js',
+	entry: {
+		index: './src/index.js',
+		other: './src/other.js'
+	},
 	output: {
 		filename: 'bundle.js',
 		path: path.resolve(__dirname, 'dist')
